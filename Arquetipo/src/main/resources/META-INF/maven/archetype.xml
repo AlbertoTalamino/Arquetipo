@@ -1,0 +1,19 @@
+<archetype>
+	<id>Arquetipo</id>
+	<sources>
+		<source>src/main/java/App.java</source>
+	</sources>
+	<testSources>
+		<source>src/test/java/AppTest.java</source>
+	</testSources>
+
+	<fileSets>
+		<fileSet filtered="true" packaged="true">
+			<directory>src/main/java</directory>
+			<excludes>
+				<exclude>App.java</exclude>
+			</excludes>
+		</fileSet>
+	</fileSets>
+
+</archetype>
